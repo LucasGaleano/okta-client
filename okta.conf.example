@@ -1,0 +1,3 @@
+[okta]
+host = https://example.com
+token = tokenkey
