@@ -5,7 +5,6 @@ from syslog import LOG_SYSLOG
 import socket
 
 log_format = f'%(asctime)s {socket.gethostname()} okta-client[%(process)d]: %(message)s'
-# log_format_syslog = 'shodan-client[%(process)d]: %(message)s'
 log_format_date = '%b %d %H:%M:%S'
 
 logging.basicConfig(

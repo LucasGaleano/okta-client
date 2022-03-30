@@ -6,7 +6,7 @@
 
 import json
 import requests
-from datetime import datetime, timezone
+from datetime import datetime
 import urllib3
 from time import sleep
 from loggingHelper import logger

@@ -1,5 +1,7 @@
 # okta-client
 
+The script will fetch and log to a file the okta events every 60 sec.
+
 ## How it works
 
 Create a config file name okta.conf with this information in the root directory. (there is a example file in the repository)
